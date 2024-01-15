@@ -115,6 +115,7 @@ const currentSquares = history[currentMove];
 
   return (
     <div className="game">
+      <h1>Testing auto deployment</h1>
       <div className="game-board">
         <Board squares={currentSquares} xIsNext={xIsNext} onPlay={handlePlay} />
       </div>
